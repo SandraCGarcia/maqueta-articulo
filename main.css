@@ -1,0 +1,639 @@
+body{
+    margin: 0;
+}
+
+/*header styles*/
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #232323;
+}
+
+.header-title{
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 21px;
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: #dbccb8;
+    letter-spacing: 4.08px;
+    padding: 9px 3px 5px;
+}
+
+@media (min-width: 768px) {
+    .header-title{
+        position: relative;
+        top: 942px;
+        right: 350px;
+        font-size: 25px;
+        text-align: left;
+        letter-spacing: 4.9px;
+        line-height: 29px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .header-title{
+        font-size: 34px;
+        text-align: right;
+        font-weight: 200;
+        letter-spacing: 6.6px;
+        position: relative;
+        right: 883px;
+    }
+}
+
+/*hero styles*/
+
+.hero-separator{
+    background-color: #dbccb8;
+    width: 100%;
+    height: 14px;
+    position: absolute;
+}
+
+.hero-U{
+    color: #000000;
+    font-size: 298px;
+    font-weight: 900;
+    text-align: left;
+    font-family: 'Playfair Display', serif;
+    position: relative;
+    margin-top: -220px;
+}
+
+.hero-title{
+    color: #dbccb8;
+    font-size: 17px;
+    letter-spacing: 1.95px;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 300;
+    line-height: 28px;
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 58px;
+    margin-bottom: 0;
+    width: 262px;
+}
+
+.hero-separator_dark{
+    background-color: black;
+    width: 119px;
+    height: 20px;
+    float: right;
+    position: inherit;
+    margin-top: -55px;
+}
+
+.hero-box_credits{
+    width: 181px;
+    font-size: 11px;
+    text-align: right;
+    float: right;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    color:#939393;
+    margin-right: 30px;
+}
+
+@media (min-width: 768px) {
+    .hero-separator{
+        width: 0;
+    }
+    .hero-U{
+        font-size: 312px;
+        font-weight: 900;
+        margin-top: -589px;
+        margin-left: 3px;
+    }
+    .hero-title{
+        width: 381px;
+        height: 77px;
+        font-size: 24px;
+        line-height: 42px;
+        letter-spacing: 1.75px;
+        font-weight: 300;
+        margin-top: -207px;
+        margin-left: 73px;
+    }
+    .hero-separator_dark{
+        margin-top: 320px;
+        float: left;
+        width: 413px;
+    }
+    .hero-box_credits{
+        margin-top: 415px;
+        width: 220px;
+        font-size: 14px;
+        line-height: 25px;
+        margin-right: 66px;
+        letter-spacing: -0.2px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .hero-U{
+        font-size: 410px;
+        margin-top: -770px;
+        margin-left: 202px;
+    }
+    .hero-title{
+        font-size: 26px;
+        letter-spacing: 1.9px;
+        margin-top: -287px;
+        margin-left: 368px;
+    }
+    .hero-separator_dark{
+        margin-top: 320px;
+        float: left;
+        width: 550px;
+    }
+    .hero-box_credits{
+        margin-right: 250px;
+    }
+}
+
+/*images styles*/
+
+.header-logo{
+    background-image: url("./images/mobile-version/1525797491-logo-vanitatis.png");
+    width: 25%;
+    margin-left: 8px;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+}
+
+.hero-img-48775{
+    background-image: url("./images/mobile-version/vanitatis-alba-galocha-channel-48775-copy-2.jpg");
+    background-repeat: no-repeat;
+    height: 431px;
+}
+
+.main-img-49283{
+    background-image: url("./images/mobile-version/vanitatis-alba-galocha-channel-49283-copy-3.jpg");
+    width: 320px;
+    height: 370px;
+    margin-top: 106px;
+}
+
+.main-img-49358{
+    background-image: url("./images/mobile-version/vanitatis-alba-galocha-channel-49358-copy-3.jpg");
+    width: 320px;
+    height: 369px;
+}
+
+.main-img-48846{
+    background-image: url("./images/mobile-version/vanitatis-alba-galocha-channel-48846-copy.png");
+    width: 262px;
+    height: 350px;
+    margin: -110px 29px 0 29px;
+    position: relative;
+    margin-bottom: -180px;
+}
+
+.main-img-49017{
+    background-image: url("./images/mobile-version/vanitatis-alba-galocha-channel-49017-copy.jpg");
+    width: 320px;
+    height: 391px;
+}
+
+.main-img-48546{
+    background-image: url("./images/mobile-version/vanitatis-alba-galocha-channel-48546-copy.jpg");
+    width: 320px;
+    height: 496px;
+    margin-top: 100px;
+}
+
+.main-img-49221{
+    background-image: url("./images/mobile-version/vanitatis-alba-galocha-channel-49221-copy.jpg");
+    width: 320px;
+    height: 492px;
+}
+
+.main-img-49422{
+    background-image: url("./images/mobile-version/vanitatis-alba-galocha-channel-49422-copy.png");
+    width: 262px;
+    height: 349px;
+    margin: 56px 29px 0 27px
+}
+
+.main-img-49150{
+    background-image: url("./images/mobile-version/vanitatis-alba-galocha-channel-49150-copy-3.jpg");
+    width: 262px;
+    height: 393px;
+    left: 9%;
+    position: relative;
+    top: -207px;
+}
+
+@media (min-width: 768px) {
+    .hero-img-48775{
+        background-image: url("./images/tablet-version/vanitatis-alba-galocha-channel-48775-copy.jpg");
+        background-repeat: no-repeat;
+        height: 800px;
+        width: 538px;;
+        box-shadow: 36px 36px 0px 0px #dbccb8;
+        position: relative;
+        top: -72px;
+        left: 194px;
+    }
+    .main-img-49150{
+        background-image: url("./images/tablet-version/vanitatis-alba-galocha-channel-49150-copy-2.jpg");
+        width: 508px;
+        height: 762px;
+        left: 130px;
+        top: -370px;
+    }
+    .main-img-49283{
+        background-image: url("./images/tablet-version/vanitatis-alba-galocha-channel-49283-copy-2.jpg");
+        width: 768px;
+        height: 512px;
+        margin-top: 106px;
+    }
+    .main-img-49358{
+        background-image: url("./images/tablet-version/vanitatis-alba-galocha-channel-49358-copy-2.jpg");
+        width: 768px;
+        height: 512px;
+    }
+    .main-img-48846{
+        background-image: url("./images/tablet-version/vanitatis-alba-galocha-channel-48846-copy.jpg");
+        width: 507px;
+        height: 677px;
+        margin: -120px 29px 0 135px;
+        position: relative;
+        margin-bottom: -316px;
+    }
+    .main-img-49017{
+        background-image: url("./images/tablet-version/vanitatis-alba-galocha-channel-49017-copy.jpg");
+        width: 636px;
+        height: 769px;
+        position: relative;
+        margin: -383px 66px 11px 66px;
+    }
+    .main-img-48546{
+        background-image: url("./images/tablet-version/vanitatis-alba-galocha-channel-48546-copy.jpg");
+        width: 371px;
+        height: 496px;
+        margin-top: 100px;
+        margin-bottom: -230px;
+        position: relative;
+    }
+    .main-img-49221{
+        background-image: url("./images/tablet-version/vanitatis-alba-galocha-channel-49221-copy.jpg");
+        width: 370px;
+        height: 492px;
+        float: right;
+        position: relative;
+        margin-top: -312px;
+    }
+    .main-img-49422{
+        background-image: url("./images/tablet-version/vanitatis-alba-galocha-channel-49422-copy.jpg");
+        width: 570px;
+        height: 760px;
+        margin: 56px 98px 0 100px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .hero-img-48775{
+        background-image: url("./images/desktop-version/vanitatis-alba-galocha-channel-48775-copy@3x.jpg");
+        width: 584px;
+        height: 861px;
+        margin-left: 322px;
+    }
+    .main-img-49150{
+        background-image: url("./images/desktop-version/vanitatis-alba-galocha-channel-49150-copy-2@3x.jpg");
+        width: 619px;
+        height: 929px;
+        left: 412px;
+    }
+    .main-img-49283{
+        background-image: url("./images/desktop-version/vanitatis-alba-galocha-channel-49283-copy@3x.png");
+        width: 700px;
+        height: 467px;
+        margin-left: 251px;
+    }
+    .main-img-49358{
+        background-image: url("./images/desktop-version/vanitatis-alba-galocha-channel-49358-copy@3x.png");
+        width: 702px;
+        height: 468px;
+        margin-left: 489px;
+        position: relative;
+        top: -134px;
+    }
+    .main-img-48846{
+        background-image: url("./images/desktop-version/vanitatis-alba-galocha-channel-48846-copy@3x.png");
+        width: 615px;
+        height: 821px;
+        margin-left: 416px;
+        margin-bottom: -325px;
+        margin-top: -252px;
+    }
+    .main-img-49017{
+        background-image: url("./images/desktop-version/vanitatis-alba-galocha-channel-49017-copy@3x.png");
+        width: 619px;
+        height: 748px;
+        margin-left: 410px;
+    }
+    .main-img-48546{
+        background-image: url("./images/desktop-version/vanitatis-alba-galocha-channel-48546-copy@3x.png");
+        width: 458px;
+        height: 610px;
+        margin-left: 250px;
+    }
+    .main-img-49221{
+        background-image: url("./images/desktop-version/vanitatis-alba-galocha-channel-49221-copy@3x.png");
+        width: 460px;
+        height: 613px;
+        margin-right: 250px;
+    }
+    .main-img-49422{
+        background-image: url("./images/desktop-version/vanitatis-alba-galocha-channel-49422-copy@3x.png");
+        width: 622px;
+        height: 829px;
+        margin-left: 422px;
+    }
+}
+
+/*description-text styles*/
+
+.description-text-1{
+    margin-top: 22px;
+    margin-bottom: 56px;
+}
+
+.description-text-2{
+    margin-top: 12px;
+    margin-bottom: 48px;
+}
+
+.description-text-3{
+    margin-top: 17px;
+    margin-bottom: 82px;
+}
+
+.description-text-4{
+    margin-top: 13px;
+    margin-bottom: 68px;
+}
+
+.description-text-5{
+    margin-top: 20px;
+    margin-bottom: 87px;
+}
+
+.description-text-6{
+    padding-top: 17px;
+    margin-bottom: 54px;
+}
+
+.description-text-7{
+    margin-top: 19px;
+    padding-bottom: 79px;
+}
+
+.description-text-8{
+    margin: 18px 0 82px 30px;
+}
+
+@media (min-width: 768px) {
+    .description-text-1{
+        margin-top: -140px;
+        width: 188px;
+        margin-right: 141px;
+        float: right;
+    }
+    .description-text-3{
+        margin: 3px 482px 82px 66px !important;
+        text-align: right !important;
+    }
+    .description-text-6{
+        position: relative;
+        top: 360px;
+        margin-left: 450px !important;
+    }
+    .description-text-8{
+        margin-top: 115px;
+    }
+}
+@media (min-width: 1440px) {
+    .description-text-1{
+        margin-right: 443px;
+    }
+    .description-text-2{
+        position: relative;
+        top: -243px;
+        left: 457px;
+    }
+    .description-text-3{
+        position: relative;
+        top: -313px;
+        right: 490px;
+    }
+    .description-text-5{
+        margin-left: 816px;
+    }
+    .description-text-8{
+        margin-left: 405px !important;
+        text-align: left !important;
+    }
+    .description-text-6{
+        top: 482px;
+        margin-left: 886px !important;
+    }
+    .description-text-7{
+        margin-left: 733px !important;
+    }
+}
+
+/*global styles*/
+
+.main-content{
+    margin: 130px 25px 63px 29px;
+}
+
+.main-C{
+    color:#000000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 109px;
+}
+
+.main-container_dark{
+    background-color: #232323;
+}
+
+.main-margin{
+    margin: 0 29px 0 29px;
+}
+
+.main-text{
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 29px;
+    letter-spacing: 0.2px;  
+}
+
+.main-text_padding{
+    padding-bottom: 60px;
+}
+
+.main-fragment-padding{
+    padding-top: 30px;
+}
+
+.main-text_white{
+    color: #ffffff;
+    padding-bottom: 40px;
+}
+
+.main-text_black{
+    color: #000000;
+}
+
+.main-content_padding{
+    padding-bottom: 230px;
+}
+
+.main-description_text{
+    color:#dbccb8;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 17px;
+    font-size: 12px;
+}
+
+.main-description_text-right{
+    margin-left: 135px;
+}
+
+.main-descripotion-text-padding{
+    padding-top: 185px;
+}
+
+.main-description_text-left{
+    margin-left: 30px;
+}
+
+.main-position{
+    position: relative;
+    top: -207px;
+}
+
+.main-text_fragment{
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 900;
+    letter-spacing: -0.8px;
+    width: 262px;
+    height: 173px;
+}
+
+.main-text_fragment-Clear{
+    color: #dbccb8;
+    text-align: right;
+    margin-top: 70px;
+    margin-bottom: 58px;
+}
+
+@media (min-width: 768px) {
+    .main-content{
+        margin: 670px 0 0 0;
+        display: flex;
+    }
+    .main-container_dark-padding{
+        padding-bottom: 141px;
+    }
+    .main-text-C{
+        margin-top: 60px;
+        margin-right: 131px;
+        margin-left: 23px; 
+    }
+    .main-C{
+        font-size: 134px;
+        margin-left: 74px;
+    }
+    .main-margin{
+        margin: 0 131px 0 194px;
+    }
+
+    .main-margin2{
+        margin-top: 200px;
+    }
+
+    .main-text_fragment{
+        font-size: 38px;
+        line-height: 46px;
+        letter-spacing: -1.1px;
+        width: 381px;
+        height: 214px;
+        text-align: left;
+    }
+    .main-text_fragment-Clear{
+        margin: 55px 318px 55px 69px;
+    }
+    .main-descripotion-text-padding{
+        padding-top: 340px;
+        margin-left: 448px;
+    }
+    .main-description_text{
+        color:#dbccb8;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        line-height: 22px;
+        font-size: 13px;
+    }
+    .main-description_text-right{
+        margin-left: 514px;
+    }
+    .main-description_text-left{
+        margin-right: 514px;
+        text-align: right;
+    }
+    .main-content_padding2{
+        padding-bottom: 456px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .main-margin{
+        margin: 0 408px 0 492px;
+    }
+    .main-text-C{
+        margin-right: 413px;
+        margin-left: 20px;
+    }
+    .main-C{
+        margin-left: 374px;
+    }
+    .main-margin2{
+        margin-top: 380px;
+    }
+    .main-text_fragment-Clear{
+        margin-top: 100px;
+        margin-bottom: 94px;
+        text-align: right;
+        margin-left: 721px;
+    }
+    .main-text-position{
+        position: relative;
+        top: -160px;
+    }
+}
+    
+/*footer styles*/
+
+.footer-container{
+    margin: 0;
+    height: 218px;
+    background-color: #dbccb8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
